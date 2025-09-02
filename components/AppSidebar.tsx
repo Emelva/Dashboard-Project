@@ -39,9 +39,9 @@ const AppSidebar = () => {
                 <SidebarMenu>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <Link href={'/'}>
+                            <Link href={'/users/username'}>
                                 <Image src="/avatar.PNG" alt="logo" width={20} height={20}/>
-                                <span>Lana Dev</span>
+                                <span>Meldz Dev</span>
                             </Link>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
@@ -77,14 +77,14 @@ const AppSidebar = () => {
                         <SidebarMenu>
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild>
-                                    <Link href={'/'}>
+                                    <Link href={'/payments'}>
                                         <Projector/> See all Projects
                                     </Link>
                                 </SidebarMenuButton>
                             </SidebarMenuItem>
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild>
-                                    <Link href={'/'}>
+                                    <Link href={'/payments'}>
                                         <Plus/> Add Projects
                                     </Link>
                                 </SidebarMenuButton>
@@ -106,14 +106,14 @@ const AppSidebar = () => {
                                 <SidebarMenu>
                                     <SidebarMenuItem>
                                         <SidebarMenuButton asChild>
-                                            <Link href={'/'}>
+                                            <Link href={'/payments'}>
                                                 <Projector/> See all Projects
                                             </Link>
                                         </SidebarMenuButton>
                                     </SidebarMenuItem>
                                     <SidebarMenuItem>
                                         <SidebarMenuButton asChild>
-                                            <Link href={'/'}>
+                                            <Link href={'/payments'}>
                                                 <Plus/> Add Projects
                                             </Link>
                                         </SidebarMenuButton>
