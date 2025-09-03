@@ -40,7 +40,7 @@ const AppSidebar = () => {
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
                             <Link href={'/users/username'}>
-                                <Image src="/avatar.PNG" alt="logo" width={20} height={20}/>
+                                <Image src="/avatar.png" alt="logo" width={20} height={20}/>
                                 <span>Meldz Dev</span>
                             </Link>
                         </SidebarMenuButton>
